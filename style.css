@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-image: url("fireworks.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+    text-shadow: 4px 2px 3px #000000, 0px 0px 25px black;
+    
+    
+}
+h1{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    
+}
+h2{
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+}
+.countdown-timer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.big-text{
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0;
+    font-weight: bold;
+}
+.countdown-el{
+    text-align: center;
+    padding: 25px;
+
+}
+.countdown-el span{
+    font-size: 20px;
+}
